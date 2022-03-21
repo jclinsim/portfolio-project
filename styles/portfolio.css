@@ -63,6 +63,10 @@ p {
   padding: 15px 30px;
 }
 
+.projects img {
+  margin-top: 100px;
+}
+
 .project-description {
   padding: 120px 60px;
 }
