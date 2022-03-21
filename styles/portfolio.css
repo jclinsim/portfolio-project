@@ -84,18 +84,35 @@ p {
   }
 }
 
-.about-section h1 {
-  font-size: 64px;
+.headshot {
+  width: 250px;
+  height: auto;
+  margin-top: 50px;
+}
+
+.content {
+  margin: 30px;
+}
+
+.content-container h1 {
+  font-size: 54px;
+  font-weight: bold;
   line-height: 1.5;
   font-family: "Times New Roman", Times, serif;
 }
 
-.about-section h2 {
+.content-container h2 {
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
 }
+.content-container h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 20px 0 0;
+  font-weight: bold;
+}
 
-.about-section a {
+.content-container a {
   font-family: Arial, Helvetica, sans-serif;
   background: var(--branding-color);
   color: white;
@@ -105,15 +122,12 @@ p {
   padding: 15px 30px;
 }
 
-.about-section {
+.content p {
+  font-size: 14px;
+}
+
+.content-container {
   padding: 160px 20px;
   text-align: center;
-}
-
-.about-section-content {
-  margin: 30px;
-}
-
-.headshot {
-  border-radius: 8px;
+  background-color: var(--secondary-color);
 }
