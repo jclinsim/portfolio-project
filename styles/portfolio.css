@@ -131,3 +131,20 @@ p {
   text-align: center;
   background-color: var(--secondary-color);
 }
+
+.contact {
+  margin: 30px;
+}
+
+.contact-container h1 {
+  font-size: 54px;
+  font-weight: bold;
+  line-height: 1.5;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.contact-container {
+  padding: 160px 20px;
+  text-align: center;
+  background-color: var(--secondary-color);
+}
