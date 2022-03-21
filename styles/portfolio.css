@@ -1,5 +1,47 @@
+:root {
+  --branding-color: #6c63ff;
+  --secondary-color: #f9f7fe;
+}
+
 h1,
 h2 {
   font-family: "Times New Roman", Times, serif;
   text-align: center;
+}
+
+.hero h1 {
+  font-weight: bold;
+  font-size: 86px;
+}
+
+.hero h2 {
+  font-weight: normal;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2;
+  color: #272142;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.hero {
+  font-family: "Times New Roman", Times, serif;
+  background-color: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero a {
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--branding-color);
+  color: white;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
